@@ -1,0 +1,29 @@
+.header {
+  margin-top: 60px;
+  height: 275px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6bd20;
+}
+
+.header h1, .header h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.header h1 {
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 69px;
+}
+
+.header h2 {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 200;
+  line-height: 35px;
+}

@@ -1,0 +1,28 @@
+.subheader {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff6a4;
+}
+
+.subheader p {
+  color: #737383;
+  font-size: 18px;
+  line-height: 28px;
+  font-style: italic;
+  text-align: center;
+  max-width: 600px;
+}
+
+.subheader p a {
+  color: #41414a;
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+}
+
+.subheader p a:hover {
+  color: #de9400;
+}

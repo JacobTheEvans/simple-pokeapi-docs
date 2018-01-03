@@ -1,0 +1,95 @@
+.request {
+  max-width: 800px;
+  padding: 5px 10px;
+  margin: 30px auto;
+}
+
+.input-field {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+}
+
+.input-field p {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  color: #555;
+  width: 30%;
+}
+
+.input-field input {
+  font-size: 16px;
+  height: 36px;
+  border: 1px solid #ccc;
+  padding: 8px 14px;
+  width: 60%;
+}
+
+.input-field button {
+  font-size: 16px;
+  height: 36px;
+  border: 1px solid #f6bd20;
+  width: 10%;
+  background-color: #f6bd20;
+  color: white;
+  transition: all .3s ease-in-out;
+}
+
+.input-field button:hover {
+  border: 1px solid #db9c00;
+  background-color: #db9c00;
+}
+
+.request .hint {
+  color: #292929;
+  margin: 7px 0;
+  font-size: 14px;
+}
+
+.response {
+  max-height: 340px;
+  overflow-y: scroll;
+  display: block;
+  padding: 9.5px;
+  margin: 23px 0;
+  font-size: 13px;
+  line-height: 1.428571429;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}
+
+
+@media (max-width: 800px) {
+  .input-field p {
+    font-size: 12px;
+  }
+  .input-field input {
+    font-size: 14px;
+  }
+  .input-field button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 650px) {
+  .input-field p {
+    width: 60%;
+  }
+  .input-field input {
+    width: 30%;
+  }
+  .input-field button {
+    width: 20%;
+  }
+}
